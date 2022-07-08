@@ -1,0 +1,156 @@
+.fondo_inicial {
+    background-image: url(./Multimedia/fondo_principal.jpg); }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header h1 {
+      color: white; }
+      header h1 main {
+        color: white; }
+        header h1 main li {
+          float: left;
+          text-decoration: none;
+          display: flex;
+          padding: 5px 20px; }
+  
+  .Logo {
+    display: flex;
+    float: left; }
+    .Logo .Logo-img {
+      float: left;
+      height: 100px;
+      display: flex;
+      margin-right: 15px;
+      margin-left: 25px; }
+  
+  .titulo_inicial {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Send Flowers', cursive; }
+  
+  .menu li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px; }
+    .menu li .menu li a {
+      text-decoration: none;
+      display: inline-block;
+      color: white; }
+      .menu li .menu li a .menu li:hover {
+        background-color: blue;
+        border-radius: 20%; }
+        .menu li .menu li a .menu li:hover menu li a:hover {
+          color: red; }
+  
+  .presentacion_titulo {
+    color: black;
+    height: 40vh;
+    margin: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Send Flowers', cursive;
+    font-size: 100px;
+    transition: all 2s ease; }
+    .presentacion_titulo .presentacion_titulo:hover {
+      width: 1000px;
+      background-color: white; }
+  
+  .Servicios {
+    align-items: center;
+    display: flex;
+    font-family: 'Send Flowers', cursive; }
+  
+  body {
+    background-color: black; }
+  
+  .estilo_cortes {
+    color: #f8f8f8;
+    font-size: 3em;
+    text-align: center; }
+    .estilo_cortes img.cortes {
+      opacity: .7;
+      border: 2px double #616060; }
+      .estilo_cortes img.cortes img.cortes:hover {
+        opacity: 2;
+        border: solid white 2px; }
+  
+  .Parr__nosotros img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px; }
+    .Parr__nosotros img .QuienesSomos {
+      font-family: 'Send Flowers', cursive;
+      align-items: center;
+      display: flex; }
+  
+  .parrafo1 {
+    font-size: 20px; }
+    .parrafo1 .card-text {
+      color: black; }
+  
+  .Contactos1 {
+    font-family: 'Send Flowers', cursive;
+    display: flex;
+    align-items: center; }
+    .Contactos1 .Fondo2 {
+      background-image: url(./Multimedia/fondo_principal.jpg); }
+  
+  .formulario {
+    color: white; }
+    .formulario .form2 {
+      color: white; }
+  
+  footer {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: white; }
+  
+  .container__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px; }
+    .container__footer .box__footer {
+      display: flex;
+      flex-direction: column;
+      padding: 40px; }
+      .container__footer .box__footer .box__footer .terms {
+        max-width: 350px;
+        margin-top: 20px;
+        font-weight: 500;
+        color: #7a7a7a;
+        font-size: 18px; }
+        .container__footer .box__footer .box__footer .terms .box__footer .h2__footer {
+          margin-bottom: 20px;
+          color: #343434;
+          font-weight: 700; }
+          .container__footer .box__footer .box__footer .terms .box__footer .h2__footer .box__footer a {
+            margin: 10px;
+            color: #7a7a7a;
+            font-weight: 600; }
+            .container__footer .box__footer .box__footer .terms .box__footer .h2__footer .box__footer a .box__footer a:hover {
+              opacity: 0.8; }
+              .container__footer .box__footer .box__footer .terms .box__footer .h2__footer .box__footer a .box__footer a:hover .box__footer a .fab {
+                font-size: 40px; }
+  
+  .box__copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px; }
+    .box__copyright .box__copyright p {
+      margin-top: 20px;
+      color: #7a7a7a; }
+      .box__copyright .box__copyright p .box__copyright hr {
+        border: none;
+        height: 1px;
+        background-color: #7a7a7a; }
+  
